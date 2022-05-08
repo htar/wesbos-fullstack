@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Page from './Page';
+import Page from '../components/Page';
 
 const MyApp = ({ Component, pageProps }) => (
   <Page>
@@ -8,7 +8,7 @@ const MyApp = ({ Component, pageProps }) => (
 );
 
 MyApp.propTypes = {
-  Component: PropTypes.node,
+  Component: PropTypes.any,
   pageProps: PropTypes.any,
 };
 
