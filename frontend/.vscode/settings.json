@@ -1,9 +1,22 @@
 {
   "workbench.colorCustomizations": {
-    "titleBar.activeForeground": "#000",
-    "titleBar.inactiveForeground": "#000000CC",
-    "titleBar.activeBackground": "#FFC600",
-    "titleBar.inactiveBackground": "#FFC600CC"
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveForeground": "#15202b99",
+    "titleBar.activeBackground": "#af77cd",
+    "titleBar.inactiveBackground": "#af77cd99",
+    "activityBar.activeBackground": "#c59cdb",
+    "activityBar.activeBorder": "#f6f1e8",
+    "activityBar.background": "#c59cdb",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#f6f1e8",
+    "activityBarBadge.foreground": "#15202b",
+    "sash.hoverBorder": "#c59cdb",
+    "statusBar.background": "#af77cd",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#9952bf",
+    "statusBarItem.remoteBackground": "#af77cd",
+    "statusBarItem.remoteForeground": "#15202b"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -21,5 +34,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "prettier.disableLanguages": ["javascript", "javascriptreact"]
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "peacock.color": "#af77cd"
 }
