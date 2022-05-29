@@ -1,5 +1,7 @@
 # dependencies
 /node_modules
+.keystone/
+.keystone/admin/.next/cache
 
 # misc
 npm-debug.log
@@ -11,5 +13,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+.env
 # IDE 
 .history/*
